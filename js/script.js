@@ -1,6 +1,6 @@
 var createSum = document.getElementById("somma-button");
 
-var resultSum = document.getElementById("price")
+var resultSum = document.getElementById("price");
 
 
 createSum.addEventListener("click", function() {
@@ -11,5 +11,5 @@ createSum.addEventListener("click", function() {
             resultSumInt += parseInt(checkNum[i].value);
         }
     }
-    resultSum.innerHTML = "$" + ' ' +  resultSumInt  ;
+    resultSum.innerHTML = "$" + ' ' +  resultSumInt;
 })
