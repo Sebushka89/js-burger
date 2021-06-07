@@ -5,9 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galaxy Burger</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script type="text/javascript" src="js/script.js"></script>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-6 yellow">
+                <div class="row">
+                    <div class="col-8">
+                        <h1>Create Your Burger</h1>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end">
+                        <img src="img/burger-top.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 beige"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Name Your Burger</h2>
+                    </div>
+                    <div class="col-12">
+                        <h3>Ingredients</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <form action="">
+                                            <img src="img/cheese.svg" alt="">
+                                            <label for="box-ingredient1">Cheese</label>
+                                            <input type="checkbox" class="check-ingredients" id="box-ingredient1" name="box-ingredient1" value="cheese">
+                                            <label for="box-ingredient1">Add</label>
+                                        </form>
+                                    </div>
+                                    <div class="col-12">
+                                        <form action="">
+                                            <img src="img/fried-egg.svg" alt="">
+                                            <label for="box-ingredient2">Egg</label>
+                                            <input type="checkbox" class="check-ingredients" id="box-ingredient2" name="box-ingredient2" value="egg">
+                                            <label for="box-ingredient2">Add</label>
+
+                                        </form>
+                                    </div>
+                                    <div class="col-12">
+                                        <form action="">
+                                            <img src="img/mustard.svg" alt="">
+                                            <label for="box-ingredient3">Mustard</label>
+                                            <input type="checkbox" class="check-ingredients" id="box-ingredient3" name="box-ingredient3" value="mustard">
+                                            <label for="box-ingredient3">Add</label>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <form action="">
+                                            <img src="img/tomato.svg" alt="">
+                                            <label for="box-ingredient4">Tomato</label>
+                                            <input type="checkbox" class="check-ingredients" id="box-ingredient4" name="box-ingredient4" value="tomato">
+                                            <label for="box-ingredient4">Add</label>
+                                        </form>
+                                    </div>
+                                    <div class="col-12">
+                                        <form action="">
+                                            <img src="img/lettuce.svg" alt="">
+                                            <label for="box-ingredient5">Lettuce</label>
+                                            <input type="checkbox" class="check-ingredients" id="box-ingredient5" name="box-ingredient5" value="lettuce">
+                                            <label for="box-ingredient5">Add</label>
+                                        </form>
+                                    </div>
+                                    <div class="col-12">
+                                        <form action="">
+                                            <img src="img/ketchup.svg" alt="">
+                                            <label for="box-ingredient6">Ketchup</label>
+                                            <input type="checkbox" class="check-ingredients" id="box-ingredient6" name="box-ingredient6" value="ketchup">
+                                            <label for="box-ingredient6">Add</label>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        Discount Coupon
+                    </div>
+                    <div class="col-10">
+                        <div class="input-group input-group-sm mb-3">
+                            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="12354abcdef" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn-warning">calculate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 beige">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 magenta">
+                <div class="row">
+                    <div class="col-6">
+                        <h3>Your Price</h3>
+                    </div>
+                    <div class="col-6">
+                        <h1 id="price"></h1>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6 beige"></div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
