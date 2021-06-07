@@ -11,5 +11,10 @@ createSum.addEventListener("click", function() {
             resultSumInt += parseInt(checkNum[i].value);
         }
     }
+    var checkDiscount = document.getElementById("promo_text");
+    if (checkDiscount.value === "SEBA20") {
+        resultSumInt -= (resultSumInt * 0.2);
+    } 
+
     resultSum.innerHTML = "$" + ' ' +  resultSumInt;
 })
