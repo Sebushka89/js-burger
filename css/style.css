@@ -16,9 +16,9 @@ h1{
 }
 
 .col-4 img{
-    
     width: 175px;
 }
+
 .col-12 img{
     width: 50px;
     margin: 0 13px 13px 0;
@@ -45,9 +45,11 @@ h3{
 label:nth-child(4){
     color: #d33359;
 }
+
 .bold{
     font-weight: bold;
 }
+
 .col-12 input{
     margin: 0 13px;
 }
