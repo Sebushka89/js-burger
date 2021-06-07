@@ -35,6 +35,23 @@ h3{
 
 .btn{
     margin-top: 13px;
-    margin-bottom: 72px;
+    margin-bottom: 330px;
     font-weight: bold;
+}
+.text{
+    color: white;
+}
+
+label:nth-child(4){
+    color: #d33359;
+}
+.bold{
+    font-weight: bold;
+}
+.col-12 input{
+    margin: 0 13px;
+}
+
+.col-10 input{
+    background-color:  #fff5e2;
 }
