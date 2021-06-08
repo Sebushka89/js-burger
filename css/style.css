@@ -16,12 +16,12 @@ h1{
 }
 
 .col-4 img{
-    width: 175px;
+    width: 220px;
 }
 
 .col-12 img{
     width: 50px;
-    margin: 0 13px 13px 0;
+    margin: 30px 13px 43px 0;
 }
 
 h2{
@@ -35,7 +35,7 @@ h3{
 
 .btn{
     margin-top: 13px;
-    margin-bottom: 330px;
+    margin-bottom: 150px;
     font-weight: bold;
 }
 .text{
@@ -51,7 +51,7 @@ label:nth-child(4){
 }
 
 .col-12 input{
-    margin: 0 13px;
+    margin: 13px 13px;
 }
 
 .col-8 input{
